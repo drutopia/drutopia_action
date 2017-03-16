@@ -1,0 +1,23 @@
+name: 'Drutopia Action'
+description: 'Provides Action content type and related configuration. An <em>action</em> is a specific, single action a user can take.'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - drutopia_core
+  - ds
+  - entity_reference_revisions
+  - field
+  - image
+  - link
+  - menu_ui
+  - node
+  - paragraphs
+  - paragraphs_base_terms
+  - path
+  - pathauto
+  - taxonomy
+  - text
+  - user
+  - views
+package: Drutopia
