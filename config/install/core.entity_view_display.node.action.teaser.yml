@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.action.body
     - field.field.node.action.field_action_end_date
     - field.field.node.action.field_action_link
+    - field.field.node.action.field_action_type
     - field.field.node.action.field_body_paragraph
     - field.field.node.action.field_image
     - field.field.node.action.field_summary
@@ -89,5 +90,6 @@ content:
 hidden:
   body: true
   field_action_link: true
+  field_action_type: true
   field_body_paragraph: true
   links: true

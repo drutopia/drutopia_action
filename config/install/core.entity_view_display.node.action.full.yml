@@ -6,7 +6,9 @@ dependencies:
     - field.field.node.action.body
     - field.field.node.action.field_action_end_date
     - field.field.node.action.field_action_link
+    - field.field.node.action.field_action_type
     - field.field.node.action.field_body_paragraph
+    - field.field.node.action.field_image
     - field.field.node.action.field_summary
     - field.field.node.action.field_tags
     - node.type.action
@@ -80,5 +82,7 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_action_type: true
+  field_image: true
   field_summary: true
   links: true
