@@ -63,6 +63,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
+    region: ds_content
 hidden:
   body: true
   field_action_end_date: true
