@@ -6,16 +6,16 @@ dependencies:
 id: node_action
 label: 'Node action'
 type: 'canonical_entities:node'
-pattern: 'action/[node:title]'
+pattern: 'actions/[node:title]'
 selection_criteria:
-  f1cba72a-e58d-47fa-8acd-6399da6681c3:
+  3e363b77-9773-4bf6-aeba-5a3ad58339f9:
     id: node_type
     bundles:
       action: action
     negate: false
     context_mapping:
       node: node
-    uuid: f1cba72a-e58d-47fa-8acd-6399da6681c3
+    uuid: 3e363b77-9773-4bf6-aeba-5a3ad58339f9
 selection_logic: and
 weight: -5
 relationships: {  }
