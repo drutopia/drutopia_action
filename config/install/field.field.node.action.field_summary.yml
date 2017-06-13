@@ -11,7 +11,7 @@ field_name: field_summary
 entity_type: node
 bundle: action
 label: Summary
-description: 'Use this summary field to provide a brief summary of your post that will be used in certain displays.'
+description: 'Enter a short description of what this Action is about. The summary is displayed on Action teasers, such as on the Actions page. '
 required: false
 translatable: true
 default_value: {  }
