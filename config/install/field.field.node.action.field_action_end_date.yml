@@ -11,7 +11,7 @@ field_name: field_action_end_date
 entity_type: node
 bundle: action
 label: 'Action end date'
-description: ''
+description: 'Set a date for when this action ends.'
 required: false
 translatable: false
 default_value: {  }

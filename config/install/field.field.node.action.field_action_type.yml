@@ -10,7 +10,7 @@ field_name: field_action_type
 entity_type: node
 bundle: action
 label: 'Action type'
-description: ''
+description: 'Site visitors can filter content by the Action type. Add Action Type options at the <a href="/admin/structure/taxonomy/manage/action_type/overview">Action Type vocabulary page</a>.'
 required: false
 translatable: false
 default_value: {  }
