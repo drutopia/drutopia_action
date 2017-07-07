@@ -5,6 +5,7 @@ core: 8.x
 dependencies:
   - datetime
   - drutopia_core
+  - drutopia_site
   - ds
   - entity_reference_revisions
   - field
