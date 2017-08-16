@@ -52,7 +52,6 @@ third_party_settings:
         - field_action_type
       right:
         - field_action_link
-        - social_simple_buttons
 id: node.action.full
 targetEntityType: node
 bundle: action
