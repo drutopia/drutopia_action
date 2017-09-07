@@ -2,10 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.box
     - core.entity_view_mode.node.teaser
     - node.type.action
     - system.menu.main
   module:
+    - ds
     - node
     - user
 id: action
@@ -51,10 +53,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 10
+          items_per_page: 12
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -63,14 +68,12 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: default
       row:
         type: 'entity:node'
         options:
+          relationship: none
           view_mode: teaser
       fields:
         title:
@@ -190,6 +193,38 @@ display:
         weight: 0
         context: '0'
         menu_name: main
+      style:
+        type: default
+        options: {  }
+      defaults:
+        style: false
+        row: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: box
+          alternating_fieldset:
+            alternating: true
+            allpages: false
+            item_0: card
+            item_1: card
+            item_2: card
+            item_3: card
+            item_4: box
+            item_5: box
+            item_6: box
+            item_7: box
+            item_8: box
+            item_9: box
+            item_10: box
+            item_11: box
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
     cache_metadata:
       max-age: -1
       contexts:

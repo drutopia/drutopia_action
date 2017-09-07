@@ -10,6 +10,7 @@ dependencies:
   - ds
   - entity_reference_revisions
   - field
+  - field_group
   - image
   - link
   - menu_ui
@@ -17,6 +18,7 @@ dependencies:
   - paragraphs
   - path
   - pathauto
+  - responsive_image
   - taxonomy
   - text
   - user

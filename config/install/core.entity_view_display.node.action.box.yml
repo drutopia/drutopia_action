@@ -1,8 +1,8 @@
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.tile
+    - core.entity_view_mode.node.box
     - field.field.node.action.body
     - field.field.node.action.field_action_end_date
     - field.field.node.action.field_action_link
@@ -14,6 +14,7 @@ dependencies:
     - node.type.action
   module:
     - ds
+    - link
     - user
 third_party_settings:
   ds:
@@ -31,16 +32,40 @@ third_party_settings:
         link_custom: ''
         classes:
           layout_class: {  }
-    regions: {  }
-id: node.action.tile
+    regions:
+      ds_content:
+        - node_title
+        - field_action_link
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
+id: node.action.box
 targetEntityType: node
 bundle: action
-mode: tile
-content: {  }
+mode: box
+content:
+  field_action_link:
+    type: link
+    weight: 1
+    region: ds_content
+    label: visually_hidden
+    settings:
+      trim_length: 18
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
 hidden:
   body: true
   field_action_end_date: true
-  field_action_link: true
   field_action_type: true
   field_body_paragraph: true
   field_image: true
