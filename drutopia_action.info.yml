@@ -6,6 +6,7 @@ dependencies:
   - config_actions
   - datetime
   - drutopia_core
+  - drutopia_seo
   - drutopia_site
   - ds
   - entity_reference_revisions
