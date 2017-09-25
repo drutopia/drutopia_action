@@ -188,9 +188,8 @@ display:
     display_options:
       display_extenders: {  }
       display_description: ''
-      title: 'Latest actions'
       defaults:
-        title: false
+        title: true
         filters: false
         filter_groups: false
         pager: false
@@ -262,6 +261,7 @@ display:
         options:
           items_per_page: 4
           offset: 0
+      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:
