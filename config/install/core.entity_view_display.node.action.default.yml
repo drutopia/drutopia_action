@@ -13,20 +13,12 @@ dependencies:
     - field.field.node.action.field_tags
     - node.type.action
   module:
-    - metatag
     - user
 id: node.action.default
 targetEntityType: node
 bundle: action
 mode: default
-content:
-  field_meta_tags:
-    weight: 1
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
+content: {  }
 hidden:
   body: true
   field_action_end_date: true
@@ -34,6 +26,7 @@ hidden:
   field_action_type: true
   field_body_paragraph: true
   field_image: true
+  field_meta_tags: true
   field_summary: true
   field_tags: true
   links: true
