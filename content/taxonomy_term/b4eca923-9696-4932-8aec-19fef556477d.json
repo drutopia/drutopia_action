@@ -7,11 +7,6 @@
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/action_type"
         }
     },
-    "tid": [
-        {
-            "value": 10
-        }
-    ],
     "uuid": [
         {
             "value": "b4eca923-9696-4932-8aec-19fef556477d"
