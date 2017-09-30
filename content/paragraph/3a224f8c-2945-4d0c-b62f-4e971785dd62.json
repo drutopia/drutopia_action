@@ -47,7 +47,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c242b566-5041-4a47-99d7-666e5cb91564"
+                        "value": "a79bf0e5-2f82-498d-a17c-1fcc0c308480"
                     }
                 ],
                 "lang": "en"
@@ -65,7 +65,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c242b566-5041-4a47-99d7-666e5cb91564"
+                        "value": "a79bf0e5-2f82-498d-a17c-1fcc0c308480"
                     }
                 ]
             }
@@ -109,9 +109,16 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Drutopialand"
+            }
+        }
+    ],
     "field_text": [
         {
-            "value": "<p>Create an action for your supporters that engages them in your work, helps you reach your goals and makes an impact on the world.<\/p>\r\n\r\n<p>Like Articles and Blog Posts, start with the most important information (the action) first and follow with necessary details and background information.<\/p>\r\n\r\n<p>Optionally specify an end date to your action which will automatically move your action from <em>Active<\/em> to <em>Past <\/em>on the Actions page.<\/p>\r\n\r\n<p>Setting an action type will allow supporters to find actions relevant to them.<\/p>\r\n\r\n<p>Use the Action Link field for off-site actions like RSVP'ing for an event or donating to a cause.<\/p>\r\n\r\n<h2>Relate Actions to Other Content<\/h2>\r\n\r\n<p>An action can be part of a larger campaign. Create a campaign and then relate actions from the campaign page. This helps give actions more context for supporters.<\/p>\r\n\r\n<p>You can also relate actions to articles or blog posts. This is a great way to plug interested people in. If they're interested in the article you wrote, there's a good chance they're inspired to do something about the issue you raised.<\/p>\r\n\r\n<h2>Future Development<\/h2>\r\n\r\n<p>We've got lots of future plans for Drutopia Action!&nbsp; See what we're up to, suggest a feature and support its development.<\/p>\r\n\r\n<ul>\r\n\t<li>Follow the <a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/milestones\">roadmap <\/a><\/li>\r\n\t<li>See <a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/issues?label_name%5B%5D=Feature+Request\">feature requests<\/a><\/li>\r\n\t<li><a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/issues\/new\">Request a new feature<\/a><\/li>\r\n<\/ul>\r\n",
+            "value": "<p>Create an action for your supporters that engages them in your work, helps you reach your goals and makes an impact on the world.<\/p>\r\n\r\n<p>Like Articles and Blog Posts, start with the most important information (the action) first and follow with necessary details and background information.<\/p>\r\n\r\n<p>Optionally specify an end date to your action which will automatically move your action from <em>Active<\/em> to <em>Past <\/em>on the Actions page.<\/p>\r\n\r\n<p>Setting an action type will allow supporters to find actions relevant to them.<\/p>\r\n\r\n<p>Use the Action Link field for off-site actions like RSVP'ing for an event or donating to a cause.<\/p>\r\n\r\n<h2>Future Development<\/h2>\r\n\r\n<p>We've got lots of future plans for Drutopia Action!&nbsp; See what we're up to, suggest a feature and support its development.<\/p>\r\n\r\n<ul>\r\n\t<li>Follow the <a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/milestones\">roadmap <\/a><\/li>\r\n\t<li>See <a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/issues?label_name%5B%5D=Feature+Request\">feature requests<\/a><\/li>\r\n\t<li><a href=\"https:\/\/gitlab.com\/drutopia\/drutopia_action\/issues\/new\">Request a new feature<\/a><\/li>\r\n<\/ul>\r\n",
             "format": "full_html"
         }
     ]
