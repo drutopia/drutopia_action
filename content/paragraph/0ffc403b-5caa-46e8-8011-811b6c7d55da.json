@@ -109,13 +109,6 @@
             "lang": "en"
         }
     ],
-    "metatag": [
-        {
-            "value": {
-                "title": "| Drutopia Octavia"
-            }
-        }
-    ],
     "field_text": [
         {
             "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere ligula. Cras rutrum metus a quam lacinia, sed facilisis lacus viverra. Nam dignissim justo id neque sodales ornare. Nam non libero nulla. Aliquam porta pulvinar orci quis venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum neque fermentum, interdum nulla vel, porttitor ante. Maecenas lorem sem, condimentum venenatis rhoncus at, commodo vitae urna. Nulla vitae suscipit massa, a euismod purus. Etiam mollis pulvinar velit, eget venenatis erat mollis eget. Phasellus ornare laoreet odio, in auctor ipsum congue quis. Etiam pretium magna lorem, vel rhoncus ex luctus vitae. Mauris congue sed sem vel finibus. Quisque vestibulum porttitor laoreet.<\/p>\r\n",
