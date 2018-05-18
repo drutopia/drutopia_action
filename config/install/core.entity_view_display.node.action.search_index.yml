@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.action.field_meta_tags
     - field.field.node.action.field_summary
     - field.field.node.action.field_tags
+    - field.field.node.action.field_topics
     - node.type.action
   module:
     - datetime
@@ -72,6 +73,14 @@ content:
       responsive_image_style: ''
     third_party_settings: {  }
   field_tags:
+    type: entity_reference_label
+    weight: 6
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_topics:
     type: entity_reference_label
     weight: 5
     region: content

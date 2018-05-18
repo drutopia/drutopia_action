@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.action.field_meta_tags
     - field.field.node.action.field_summary
     - field.field.node.action.field_tags
+    - field.field.node.action.field_topics
     - node.type.action
     - responsive_image.styles.narrow
   module:
@@ -40,13 +41,13 @@ third_party_settings:
       ds_content:
         - field_image
         - group_card_content
-        - field_tags
+        - field_topics
         - node_title
         - field_action_link
     fields:
       node_title:
         plugin_id: node_title
-        weight: 7
+        weight: 10
         label: hidden
         formatter: default
         settings:
@@ -56,7 +57,7 @@ third_party_settings:
   field_group:
     group_card_content:
       children:
-        - field_tags
+        - field_topics
         - node_title
         - field_action_link
       parent_name: ''
@@ -72,6 +73,7 @@ third_party_settings:
         effect: none
         speed: fast
       label: 'Card content'
+      region: hidden
 id: node.action.card
 targetEntityType: node
 bundle: action
@@ -79,7 +81,7 @@ mode: card
 content:
   field_action_link:
     type: link
-    weight: 9
+    weight: 11
     region: ds_content
     label: visually_hidden
     settings:
@@ -98,9 +100,9 @@ content:
       responsive_image_style: narrow
       image_link: content
     third_party_settings: {  }
-  field_tags:
+  field_topics:
     type: entity_reference_label
-    weight: 6
+    weight: 9
     region: ds_content
     label: visually_hidden
     settings:
@@ -113,4 +115,5 @@ hidden:
   field_body_paragraph: true
   field_meta_tags: true
   field_summary: true
+  field_tags: true
   links: true

@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.action.field_meta_tags
     - field.field.node.action.field_summary
     - field.field.node.action.field_tags
+    - field.field.node.action.field_topics
     - node.type.action
     - responsive_image.styles.narrow
   module:
@@ -42,7 +43,7 @@ third_party_settings:
       right:
         - node_title
         - field_summary
-        - field_tags
+        - field_topics
     fields:
       node_title:
         plugin_id: node_title
@@ -74,7 +75,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: right
-  field_tags:
+  field_topics:
     type: entity_reference_label
     weight: 3
     region: right
@@ -89,4 +90,5 @@ hidden:
   field_action_type: true
   field_body_paragraph: true
   field_meta_tags: true
+  field_tags: true
   links: true
