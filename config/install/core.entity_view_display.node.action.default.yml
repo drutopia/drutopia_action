@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.action.field_meta_tags
     - field.field.node.action.field_summary
     - field.field.node.action.field_tags
+    - field.field.node.action.field_topics
     - node.type.action
   module:
     - user
@@ -29,4 +30,5 @@ hidden:
   field_meta_tags: true
   field_summary: true
   field_tags: true
+  field_topics: true
   links: true
