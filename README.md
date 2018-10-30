@@ -1,4 +1,31 @@
 <!-- writeme -->
+Drutopia Action
+===============
+
+Drutopia Action is a base feature providing an action content type and related configuration.
+
+ * https://gitlab.com/drutopia/drutopia_action
+ * Issues: https://gitlab.com/drutopia/drutopia_action/issues
+ * Source code: https://gitlab.com/drutopia/drutopia_action/tree/8.x-1.x
+ * Keywords: actions, campaign, grassroots, group, drutopia
+ * Package name: drupal/drutopia_action
+
+
+### Requirements
+
+ * drupal/config_actions ^1.0-beta1
+ * drupal/drutopia_seo ^1.0-alpha1
+ * drupal/ds ^3.0-rc1
+ * drupal/field_group ^3.0-beta1
+ * drupal/pathauto ^1.0
+ * drupal/paragraphs ^1.1
+
+
+### License
+
+GPL-2.0+
+
+<!-- endwriteme -->
 
 ### About
 
