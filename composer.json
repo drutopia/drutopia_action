@@ -1,6 +1,7 @@
 {
     "name": "drupal/drutopia_action",
     "description": "Drutopia Action is a base feature providing an action content type and related configuration.",
+    "keywords": ["actions", "campaign", "grassroots", "group", "drutopia"],
     "type": "drupal-module",
     "license": "GPL-2.0+",
     "homepage": "https://gitlab.com/drutopia/drutopia_action",
